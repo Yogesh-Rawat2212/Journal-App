@@ -13,6 +13,18 @@ spring:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
 
+  mail:
+    host: smtp.gmail.com #yahoo:smtp.mail.yahoo.com, outlook:smtp.office365.com
+    port: 587
+    username: itachiizumi2212@gmail.com
+    password: rzic xiuv bxqa xavk
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
   # To change port no
 #server:
 #  port: 8081

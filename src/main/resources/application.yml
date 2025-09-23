@@ -12,3 +12,13 @@ spring:
     properties:
       hibernate:
         dialect: org.hibernate.dialect.MySQL8Dialect
+
+  # To change port no
+#server:
+#  port: 8081
+#  servlet:
+#    context-path: /journal #ab localhost:8081/journal (mandatory)
+
+weather:
+  api:
+    key: e24f8cb0ae2b5eb1200124a6ce37b1c7

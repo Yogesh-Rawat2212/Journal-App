@@ -22,6 +22,9 @@ public class User {
     @Column(name = "username",nullable = false, unique = true) // Unique username, cannot be null
     private String username;
 
+    private String email;
+    private boolean sentimentAnalysis;
+
     @Column(nullable = false)
     private String password;
 
